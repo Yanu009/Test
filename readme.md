@@ -1,26 +1,23 @@
-# Finance Telegram Bot
+# Финансовый Telegram-бот
 
-A marketing-friendly Telegram bot that helps you track personal income and expenses with rich UI elements.
+Готовый бот для учёта личных доходов и расходов с интуитивным интерфейсом на русском языке.
 
-## Setup
+## Установка
 
-1. Install dependencies:
+1. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Укажите токен своего бота в переменной `TOKEN` файла `bot.py`.
+3. Запустите бота:
+   ```bash
+   python bot.py
+   ```
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Возможности
 
-2. Replace `YOUR_BOT_TOKEN` in `bot.py` with your bot's token.
-
-3. Run the bot:
-
-    ```bash
-    python bot.py
-    ```
-
-## Features
-
-- Reply keyboard for quick access to actions.
-- Inline keyboards to choose income or expense categories.
-- Summary of total income, expenses, and balance.
-- Friendly prompts guiding the user through each step.
+- ​Главное меню с кнопками для быстрого выбора действий.
+- ​Категории доходов и расходов через inline-кнопки.
+- ​Статистика по сумме доходов, расходов и балансу.
+- ​Установка месячного бюджета и предупреждение при его превышении.
+- ​Экспорт всех операций в CSV-файл одним нажатием.
