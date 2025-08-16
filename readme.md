@@ -1,6 +1,6 @@
-# Test Telegram Bot
+# Finance Telegram Bot
 
-This repository contains a simple Telegram bot demonstrating various Telegram UI elements such as reply keyboards, inline keyboards, and web apps.
+A marketing-friendly Telegram bot that helps you track personal income and expenses with rich UI elements.
 
 ## Setup
 
@@ -20,5 +20,7 @@ This repository contains a simple Telegram bot demonstrating various Telegram UI
 
 ## Features
 
-- Reply keyboard with contact, location, and web app buttons.
-- Inline keyboard with callback queries and URL buttons.
+- Reply keyboard for quick access to actions.
+- Inline keyboards to choose income or expense categories.
+- Summary of total income, expenses, and balance.
+- Friendly prompts guiding the user through each step.
